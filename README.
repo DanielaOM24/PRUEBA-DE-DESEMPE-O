@@ -1,0 +1,27 @@
+Instrucciones de ejecución.
+El programa consta de un inventario, que permite añadir productos con precio y cantidad, consultar los productos agregados, eliminar productos que se han añadido
+anteriormente,actualizar un precio que ya se había puesto, borrar un producto,calcular el valor final del inventario y enlistar todo el inventario con detalle de cada producto precio y cantidad.
+para utilizar correctamente el programa es importante tener en cuenta estas recomendaciones parte por parte:
+
+#DATOS DE ENTRADA                                            #DATOS DE SALIDA
+
+campo                | tipo | Descripcion                  |  ejemplo
+Select an option     | int  | numeros del 1 a 6            | ✅ Select an option 👇:
+                     |                                       ❌  Invalid option , select  (1 a 6) 
+                                                            si se deja en blanco sale este mensaje.
+                                                            si está bien ejecuta el menú.
+-------------------------------------------------------------------------------------------------------
+add products         | str | para el nombre del producto   |  Name of product:
+                                                              You did not enter any products >> solo sale este error si se deja en blanco
+                     float | para precio y unidades        |  What is the price of the product:
+                                                              ❌Invalid price. Please try again.>> sigue la ejcución, esto sale en el siguiente apartado si se deja en blanco 
+                                                               What is the price of the product:-9
+                                                              ❌You must enter a positive value >> y este si se pone un numero negativo
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ aqui se ve a detalle uno de los ejemplos de lo que pasa con el programa y que comportamiento tiene si el usuario se equivoca, la idea es que el usuario pueda tener la facilidad de
+usar el programa hasta que los datos esten correctos. 
+A medida que se va usando el programa el mismo va indicando que hacer y que debe colocar en caso de que no cumpla con los requisitos del ingreso de datos.
+
+
+
+
